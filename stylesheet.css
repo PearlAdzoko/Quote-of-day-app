@@ -101,6 +101,7 @@ body{
  width: 100%;                                       
  padding: 0.625rem;
  border-radius: 0.625rem;
+ border: none;
  background: #FFF;
  font-family: "inter", sans-serif;
  font-weight: 500;
@@ -248,6 +249,7 @@ body{
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  width: 100%;
  }
 
 
@@ -258,6 +260,9 @@ body{
   border-radius: 0.5rem;
   border: 1px solid #E2E4E9;
   padding: 0.3rem 1rem;
+  /* width: 100%; */
+  flex: 1;
+  justify-content: center;
  }
 
  .btn-select1 p{
@@ -271,6 +276,9 @@ body{
   border-radius: 0.5rem;
   border: 1px solid #E2E4E9;
   padding: 0.3rem 1rem;
+  /* width: 100%; */
+  flex: 1;
+  justify-content: center;
  }
 
 
@@ -279,6 +287,7 @@ body{
   width: 100%;                                       
   padding: 0.5rem 1rem;
   border-radius: 0.625rem;
+  border: none;
   background: #3C4146;
   font-family: "inter", sans-serif;
   font-weight: 500;
