@@ -53,9 +53,9 @@ body{
 
 
 .main-body{
-  display: flex;
+  /* display: flex; */
   /* width: 24.875rem; */
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: flex-start;
   gap: 1.5rem;
   padding: 2rem 1rem;
@@ -70,13 +70,17 @@ body{
 
 .img-main{
   background:url(./assest/image/img5.png);
-  /* width: 26rem; */
+  width: 100%;
   height: 26rem;
   /* flex-shrink: 0; */
+  margin-bottom: 2rem;
   background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
   align-self: stretch;
   display: flex;
   align-items: center;
+  padding: 1rem 1rem;
 }
 
 .top-container p{
@@ -86,6 +90,7 @@ body{
   font-size: 1.5rem;
   text-align: center;
   line-height: 2rem;
+  /* padding: 2rem 1rem; */
 }
 
 .bottom-container{
@@ -122,121 +127,123 @@ body{
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    height: 3.5rem;
-    width: 3.5rem;
+    /* height: 3.5rem; */
+    /* width: 3.5rem; */
     border-radius: 0.5rem;
+    background-position: center;
+    min-height: 3rem;
   } 
 
   .grid-item.btn-icon{
     background-image: url(./assest/image/imgicon.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img1{
     background-image: url(./assest/image/img1.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img2{
     background-image: url(./assest/image/img2.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img3{
     background-image: url(./assest/image/img3.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img4{
     background-image: url(./assest/image/img4.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img5{
     background-image: url(./assest/image/img5.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img6{
     background-image: url(./assest/image/img6.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img7{
     background-image: url(./assest/image/img7.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img8{
     background-image: url(./assest/image/img8.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img9{
     background-image: url(./assest/image/img9.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img10{
     background-image: url(./assest/image/img10.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img11{
     background-image: url(./assest/image/img11.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img12{
     background-image: url(./assest/image/img12.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img13{
     background-image: url(./assest/image/img13.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img14{
     background-image: url(./assest/image/img14.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
 
   .grid-item.img15{
     background-image: url(./assest/image/img15.png);
     background-size: cover;
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem; */
+    /* height: 3.5rem; */
   }
  .option{
   display: flex;
@@ -248,7 +255,7 @@ body{
  .btn-select{
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 0.5rem;
   width: 100%;
  }
 
@@ -259,7 +266,7 @@ body{
   align-items: center;
   border-radius: 0.5rem;
   border: 1px solid #E2E4E9;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem rem;
   /* width: 100%; */
   flex: 1;
   justify-content: center;
@@ -267,6 +274,8 @@ body{
 
  .btn-select1 p{
   text-align: center;
+  font-size: 24px;
+  font-family: "inria Serif", sertif;
  }
 
  .btn-select2{
@@ -275,12 +284,19 @@ body{
   align-items: center;
   border-radius: 0.5rem;
   border: 1px solid #E2E4E9;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem rem;
   /* width: 100%; */
   flex: 1;
   justify-content: center;
  }
 
+ .btn-select2 p{
+  text-align: center;
+  font-size: 24px;
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-style: normal;
+ }
 
  .btn-sec{
   height: 3rem;
@@ -293,4 +309,45 @@ body{
   font-weight: 500;
   font-size: 16px;
   color: #FFF;
+ }
+
+ @media screen and (min-width: 1024px) {
+  .header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-body{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .bottom-container{
+    width: 50%;
+  }
+
+  .img-main{
+    background:url(./assest/image/img5.png);
+    width: 100%;
+    height: 630px;
+    /* flex-shrink: 0; */
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    padding: 1rem 10rem;
+  }
+
+  .top-container{
+    height: 631px;
+  }
+
+
  }
