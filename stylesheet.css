@@ -18,7 +18,7 @@ body{
 .header-nav{
   display: flex;
   /* width: 26.875rem; */
-  padding: 1.6rem 1.6rem;
+  padding: 1.2rem 1.5rem;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
@@ -29,7 +29,7 @@ body{
 .header-nav h1{
   font-family: "Chakra Petch", sans-serif;
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-style: normal;
   text-align: center;
   color: #FFF;
