@@ -86,22 +86,13 @@ body{
 .top-container p{
   color: #FFF;
   font-family: "inria Serif", sertif;
-  font-weight: 300;
+  font-weight: 00;
   font-size: 1.5rem;
   text-align: center;
   line-height: 2rem;
   /* padding: 2rem 1rem; */
 }
 
-.top-container p{
-  color: #FFF;
-  font-family: "inria Serif", sertif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  text-align: center;
-  line-height: 2rem;
-  /* padding: 2rem 1rem; */
-}
 
 .bottom-container{
   /* align-items: center; */
@@ -122,6 +113,7 @@ body{
  color: #1B1B1B;
  font-weight: 500;
  font-size: 16px;
+ cursor: pointer;
 }
 
 .img-grid-container{
@@ -143,6 +135,7 @@ body{
     border-radius: 0.5rem;
     background-position: center;
     min-height: 3rem;
+    cursor: pointer;
   } 
 
   .grid-item.btn-icon{
@@ -288,6 +281,7 @@ body{
   /* width: 100%; */
   flex: 1;
   justify-content: center;
+  cursor: pointer;
  }
 
  .btn-select1 p{
@@ -306,6 +300,7 @@ body{
   /* width: 100%; */
   flex: 1;
   justify-content: center;
+  cursor: pointer;
  }
 
  .btn-select2 p{
@@ -327,7 +322,9 @@ body{
   font-weight: 500;
   font-size: 16px;
   color: #FFF;
+  cursor: pointer;
  }
+ 
 
  @media screen and (min-width: 1024px) {
   .header-nav{
@@ -365,6 +362,7 @@ body{
 
   .top-container{
     height: 631px;
+    width: 190rem;
   }
 
   .top-container p{
