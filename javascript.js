@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function setBackgroundImage(imageUrl) {
         const quoteContainer = document.querySelector('.img-main');
-        quoteContainer.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), ${imageUrl}`;
+        quoteContainer.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), ${imageUrl}`;
     }
 
     // Function to toggle between fonts
