@@ -53,9 +53,9 @@ body{
 
 
 .main-body{
-  /* display: flex; */
+  display: flex;
   /* width: 24.875rem; */
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
   padding: 2rem 1rem;
@@ -73,7 +73,7 @@ body{
   width: 100%;
   height: 26rem;
   /* flex-shrink: 0; */
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   background-size: cover;
   background-position: center;
   border-radius: 2rem;
@@ -265,24 +265,32 @@ body{
 
  .btn-select{
   display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  width: 100%;
+  height: 3rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 1rem;
+  border: 1px solid #3C3C3C;
  }
 
+.btn-selected{
+  background: #262626;
+}
 
  .btn-select1{
   display: flex;
-  height: 3rem;
+  padding: 0.8rem;
   align-items: center;
-  border-radius: 0.5rem;
-  border: 1px solid #E2E4E9;
-  padding: 0.3rem rem;
-  /* width: 100%; */
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: 1rem;
   flex: 1;
   justify-content: center;
   cursor: pointer;
  }
+
 
  .btn-select1 p{
   text-align: center;
@@ -292,12 +300,11 @@ body{
 
  .btn-select2{
   display: flex;
-  height: 3rem;
+  padding: 0.8rem;
   align-items: center;
-  border-radius: 0.5rem;
-  border: 1px solid #E2E4E9;
-  padding: 0.3rem rem;
-  /* width: 100%; */
+  gap: 0.5rem;
+  align-self: stretch;
+  border-radius: 1rem;
   flex: 1;
   justify-content: center;
   cursor: pointer;
@@ -374,6 +381,5 @@ body{
     line-height: 3.5rem;
     /* padding: 2rem 1rem; */
   }
-
 
  }

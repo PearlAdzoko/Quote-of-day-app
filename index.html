@@ -6,7 +6,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./stylesheet.css" />
     <title>Quote Of the Day App</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
+
 <body>
    <div class="header-nav">
     <h1>Quote of the Day Generator</h1>
@@ -16,9 +19,9 @@
     </div>
    </div> 
     <div class="main-body">
-      <div class="top-container">
-        <div class="img-main"><p>Don't sit down and wait for the opportunities to come. Get up and make them. Madam C.J. Walker</p></div>
-      </div>
+        <div class="top-container">
+            <div class="img-main"><p>Don't sit down and wait for the opportunities to come. Get up and make them. Madam C.J. Walker</p></div>
+        </div>
       <div class="bottom-container">
         <button class="btn-pry">Generate Quote</button>
         <div class="img-grid-container">
@@ -45,7 +48,7 @@
         <div class="option">
             <p>Select Font</p>
             <div class="btn-select">
-                <div class="btn-select1">
+                <div class="btn-select1 btn-selected">
                     <p>Inria</p>
                 </div>
                 <div class="btn-select2">
@@ -57,6 +60,8 @@
        </div>
     </div>
     <input type="file" class="file-input" accept="image/*" style="display: none;">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script> -->
 
     <script type="module" src="javascript.js"></script>
 </body>
